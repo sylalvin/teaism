@@ -3,14 +3,10 @@
     <h1 class="animated rubberBand mt-5">
       {{msg}}
     </h1>
-    <el-row>
-      <el-col :span="24"><div class="grid-content bg-purple"></div></el-col>
-    </el-row>
   </div>
 </template>
 
 <script>
-// import animate from 'animate.css'
 export default {
   name: 'Demo',
   props: {
