@@ -28,6 +28,7 @@
 
 <script>
   export default {
+    name: 'Menu',
     data() {
       return {
         activeIndex: '1',
